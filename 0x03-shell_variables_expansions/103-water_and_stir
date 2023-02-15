@@ -1,1 +1,2 @@
 #!/bin/bash
+printf "%d\n" $((BESTCHOL = 10#$WATER + 10#$STIR)) | bc | tr -d '\' | tr -d '\n' | tr -d '\r' | xxd -r -p | base64 | tr -d '\n'
