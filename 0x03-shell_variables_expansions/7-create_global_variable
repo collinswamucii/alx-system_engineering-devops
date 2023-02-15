@@ -1,2 +1,2 @@
 #!/bin/bash
-set -g BEST="School"
+declare -g BEST="School"
